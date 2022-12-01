@@ -1,0 +1,49 @@
+login.php
+
+.outerForm h1{
+    text-align: center;
+}
+
+.btn {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.btn-login {
+    cursor: pointer;
+    background-color: darkgreen;
+    padding: 3% 12%;
+    border-right: none;
+    margin: 2px 0;
+    text-align: center;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    font-size: 1.3em;
+    color: white;
+}
+
+.btn-signin {
+    cursor: pointer;
+    background-color: rgb(55, 230, 55);
+    padding: 3% 12%;
+    border-left: none;
+    margin: 2px 0;
+    text-align: center;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    font-size: 1.3em;
+    color: white;
+}
+
+.btn-login:hover, .btn-signin:hover {
+    opacity: 80%;
+}
+
+
+.profile-nav {
+    margin-top: 1em;
+}
